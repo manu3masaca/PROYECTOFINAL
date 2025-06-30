@@ -212,27 +212,6 @@ function generarReporteLibros() {
 // array con los títulos de esos libros y mostrarlo en la consola.
 // asegurarse de que solo se filtren los datos por letras y espacios.
 
-const libros = [
-    { id: 1, titulo: "Cien años de soledad", autor: "Gabriel García Márquez", año: 1967, género: "Ficción", disponible: true },
-    { id: 2, titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes", año: 1605, género: "Ficción", disponible: true },
-    { id: 3, titulo: "El amor en los tiempos del cólera", autor: "Gabriel García Márquez", año: 1985, género: "Ficción", disponible: false },
-    { id: 4, titulo: "La casa de los espíritus", autor: "Isabel Allende", año: 1982, género: "Ficción", disponible: true },
-    { id: 5, titulo: "frankenstein", autor: "Mary Shelley", año: 1818, género: "Ficción", disponible: true },
-    { id: 6, titulo: "el hueco", autor: "german castro", año: 1993, género: "Ficción", disponible: true },
-    { id: 7, titulo: "el tunel", autor: "Ernesto Sabato", año: 1948, género: "Ficción", disponible: true },
-    { id: 8, titulo: "las enseñanzas de don juan", autor: "Carlos Castaneda", año: 1968, género: "Ficción", disponible: true },
-    { id: 9, titulo: "el principito", autor: "Antoine de Saint-Exupéry", año: 1943, género: "Ficción", disponible: true },
-    { id: 10, titulo: "una realidad aparte", autor: "carlos castaneda", año: 1977, género: "Ficción", disponible: true }
-];
-
-const usuarios = [
-    { id: 1, nombre: "Juan Pérez", email: "juan.perez@example.com", librosPrestados: [1, 2] },
-    { id: 2, nombre: "María Gómez", email: "maria.gomez@example.com", librosPrestados: [3] },
-    { id: 3, nombre: "Diana González", email: "diana.gonzalez@example.com", librosPrestados: [4, 5] },
-    { id: 4, nombre: "Carlos López", email: "carlos.lopez@example.com", librosPrestados: [] },
-    { id: 5, nombre: "Laura Martínez", email: "laura.martinez@example.com", librosPrestados: [6] }
-];
-
 // Función para limpiar texto
 function limpiarTexto(texto) {
   return texto
